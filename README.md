@@ -56,3 +56,10 @@ In this project, Deep Q Network with some small changes is applied to solve the 
 
 ## Results
 The agent was able to achieve Average Score of 16.0 within 1000 episodes!
+
+## Future works
+
+Ideas for future works:
+- Apply Double Q-Learning
+- Prioritized experience replay
+- Dueling DQN
