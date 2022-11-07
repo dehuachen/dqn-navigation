@@ -4,7 +4,7 @@
 
 # Project 1: Navigation
 
-### Introduction
+## Introduction
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
 
@@ -20,7 +20,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
+## Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -34,12 +34,12 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the course GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-### Instructions
+## Instructions
 
 Follow the instructions in `Navigation.ipynb`, all needed classes are in the notebook. 
 
 
-### Implementation
+## Implementation
 
 In this project, Deep Q Network with some small changes is applied to solve the Banana Collection problem.
 
@@ -54,5 +54,5 @@ In this project, Deep Q Network with some small changes is applied to solve the 
 - Layers of Batch Normalization are added to accelerate training by reducing internal covariate shift [[ref](https://arxiv.org/abs/1502.03167)].
 - Gradient clamping - to void large gradients.
 
-### Results
+## Results
 The agent was able to achieve Average Score of 16.0 within 1000 episodes!
